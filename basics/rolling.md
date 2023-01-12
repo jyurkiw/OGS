@@ -2,6 +2,18 @@
 
 This game system uses the following polyhedral dice: d4, d6, d8, d10, and d12.
 
+This game system uses the following dice terms:
+
+**Roll**: To roll the die and total their values.
+
+**Total**: The total value of a roll calculated by adding up their individual values.
+
+**Die**: Used to refer to a single die. If an effect states that it affects a die it only affects a single die no matter how many dice are in the roll or the affected pool. Dice pools can be targeted by an effect that states it can target a die, in which case the effect's controller can pick which die in the pool is affected.
+
+**Dice Pool**: Used to refer to multiple dice rolled as a group and added together. If an effect states that it affects a die pool, it will only affect a single pool even if a roll consists of multiple pools.
+
+**Die Increase**: An effect that increases the size of a target die. Valid targets only include Action Checks and Enhancement Dice by default, but others may be specified in the effect description.
+
 There are three kinds of rolls in the OGS. The first kind is the most common kind and is called an Action Check. Action checks are a small number of dice rolled, modified, and added together with the total compared to a difficulty set by the GM. If the total is equal to or greater than the difficulty the action succeeds, and if the total is less than the difficulty the action fails.
 
 All Action Checks are comprised of two dice and a dice pool. The first die is the stat die appropriate for the kind of action being taken. The second die is either the skill or force die depending on what, exactly, the roll is (generally, if a player is trying to do something, the check will use a skill of some kind). Finally, the dice pool is generally referred to as the Enhancement Die and will usually be a single die or maybe a die and some kind of modifier (for example, a common enhancement modifier will be to reroll ones). However, some powerful modifiers will add multiple dice allowing a character to roll an action with four or more dice being totaled (a common example of this is the strength and body modifiers granted to particularly large creatures. A strength check made by a giant or a dragon can be made with six dice or more).
@@ -29,3 +41,15 @@ Actions generally determine the outcome of critical successes on a case by cause
 # Flat Bonuses
 
 The rarest kind of bonus in the OGS is the flat bonus. They are usually reserved for the effects of magic spells and magic items, and are extraordenarly powerful. In the case where a character with an applicable flat bonus rolls an Action Check or an Open Roll the flat bonus is added directly to the total.
+
+# Increasing Die Sizes
+
+Many modifiers increase die size including Enhancements and mystical effects. This effect is called a Die Increase and is represented in stages. A 1-Stage Die Increase increases a die one size, for example from d4 to d6. A 2-Stage Die Increase will increase a die two sizes, for example from d4 to d8.
+
+Die Increase effects can normally only affect Action Checks, and will affect the enhancement die unless a different target is explicitly described in the effect description. In the rare instances where a Die Increase effect targets an open roll, *all* dice are increased. For example, if a 7th level Fireball spell that normally deals 10d6 points of fire damage is affected by a 2-Stage Die Increase effect, it will instead deal 10d10 points of fire damage.
+
+If a Die Increase effect pushes a die above d12 the following occurs.
+
+* If a die is affected, it becomes a dice pool
+* The die pool defaults to [d8 + d6]
+* Any further Die Increase effects from the same effect (example: a multi-stage Die Increase) target the d6 by default. A new effect can choose to target either die
