@@ -60,3 +60,13 @@ If a Die Increase effect pushes a die above d12 the following occurs.
 * The die pool defaults to [d8 + d6]
 * Any further Die Increase effects from the same effect (example: a multi-stage Die Increase) target the d6
 * If the d6 is increased past d12 the process repeats and the d12 is broken down into a pool worth [d8 + d6]
+
+# Difficulties
+| Task Complexity | Difficulty |
+|----|----|
+| Routine | 7 |
+| Easy | 9 |
+| Nominal | 11 |
+| Hard | 14 |
+| Very Hard | 17 | 
+| Impossible | 20 |

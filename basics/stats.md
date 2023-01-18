@@ -9,7 +9,7 @@ The seven statistics of the OGS are as follows:
 **Health** - A measure of a character's toughness, endurance, and resistance to damage  
 **Knowledge** - A measure of a character's ability to learn  
 **Acuity** - A measure of a character's ability to think  
-**Social** - A measure of a character's ability to socalize  
+**Personality** - A measure of a character's ability to socialize  
 **Luck** - A measure of how much the universe loves the character
 
 The standard statistics array used by new characters in the OGS is as follows: _d4, d6, d6, d6, d6, d8, d8_.
